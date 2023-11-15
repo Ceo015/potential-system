@@ -1,4 +1,27 @@
-# Built application files
+# Built application files                <span class="language">Language
+                  <select name="language" class="select" onchange="la(this.value)">
+                    <option value="#">English</option>
+                    <option value="http://ru-instafollow.bitballoon.com">Russian</option>
+                  </select>
+                </span>
+              </li>
+            </ul>
+          </nav>
+
+          <span class="footer-logo">&copy; 2022 Instagram</span>
+        </div> <!-- Footer container end -->
+      </footer>
+      
+    </section>
+  </span> <!-- Root -->
+
+  <!-- Select Link -->
+  <script type="text/javascript">
+    function la(src) {
+      window.location=src;
+    }
+  </script>
+</body>
 *.apk
 *.aar
 *.ap_
